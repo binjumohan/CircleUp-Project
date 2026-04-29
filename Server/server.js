@@ -30,7 +30,7 @@ app.options("*", cors(corsOptions)); // ✅ FIXED
 
 
 
- app.options("/", cors());
+
 
 app.use(express.json());
 app.use(cookieParser());
