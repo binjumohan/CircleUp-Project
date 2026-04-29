@@ -41,6 +41,7 @@ connectDB();
 app.get("/", (req, res) => {
   res.send("API is running");
 }); 
+
 // routes
 app.use("/api/auth", authRoutes);
 app.use("/api/events", eventRoutes);
