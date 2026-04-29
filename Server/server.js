@@ -50,6 +50,4 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/bookmarks", bookMarkRoutes);
 app.use("/api", chatRoutes);
 
-module.exports = (req, res) => {
-  app(req, res);
-};
+module.exports = app;
