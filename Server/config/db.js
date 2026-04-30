@@ -11,7 +11,7 @@ const connectDB = async () => {
     isConnected = conn.connections[0].readyState;
     console.log("MongoDB Connected");
   } catch (error) {
-    console.error("DB ERROR:", error.message);
+    console.error("FULL DB ERROR:", error); 
   }
 };
 
