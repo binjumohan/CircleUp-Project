@@ -18,7 +18,7 @@ const app = express();
 // middleware
 
 const corsOptions = {
-  origin: "https://circle-up-final-client.vercel.app",
+  origin: "https://circle-up-project-frontend.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
